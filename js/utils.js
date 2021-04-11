@@ -24,10 +24,8 @@ export function loadSound() {
     src: ['/assets/audio/hit.mp3', '/assets/audio/hit.webm'],
     volume: 0.2,
   });
-  const openingMusic = new Howl({
-    src: ['/assets/audio/Minecraft.mp3'],
-  });
-  return { hitSound, openingMusic };
+
+  return { hitSound };
 }
 
 export function updateDashboard() {
