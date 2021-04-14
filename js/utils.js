@@ -21,7 +21,7 @@ export async function sleep(ms) {
 export function loadSound() {
   // Howl loaded with CDN
   const hitSound = new Howl({
-    src: ['/assets/audio/hit.mp3', '/assets/audio/hit.webm'],
+    src: ['./assets/audio/hit.mp3', './assets/audio/hit.webm'],
     volume: 0.2,
   });
 
