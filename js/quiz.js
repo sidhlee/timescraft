@@ -122,9 +122,8 @@ async function evaluateAnswer(clickedButtonElem) {
   const updatedCurrentQuestions = currentQuestions.slice();
 
   // save selected answer
-  updatedCurrentQuestions[
-    currentIndex
-  ].lastAnswer = +clickedButtonElem.textContent;
+  updatedCurrentQuestions[currentIndex].lastAnswer =
+    +clickedButtonElem.textContent;
 
   // Update lastTried state
   const lastTried = new Date().getTime();
